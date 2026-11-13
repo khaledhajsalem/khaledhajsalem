@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" role="img" aria-labelledby="title desc">
+<title id="title">Khaled Al-Haj Salem — Senior Software Engineer, Backend and Systems Architect</title>
+<desc id="desc">SaaS platforms, FinTech and payments, e-invoicing for ZATCA. Gaza, Palestine. The QR code opens his LinkedIn profile.</desc>
+<style>
+    .s { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .ink { fill: #e8eef8; } .muted { fill: #8fa0bd; } .faint { fill: #5b6b8a; } .accent { fill: #34d399; }
+    .in { animation: rise .8s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .blk { opacity: 0; animation: blk 6.4s linear infinite; }
+    @keyframes blk { 0%, 100% { opacity: 0; } 6% { opacity: 1; } 30% { opacity: .0; } }
+    .cover { transform: translateY(190px); animation: reveal 1.7s cubic-bezier(.6,0,.4,1) .5s backwards; }
+    @keyframes reveal { from { transform: translateY(0); } }
+    .scan { opacity: 0; animation: scan 7s cubic-bezier(.6,0,.4,1) .5s infinite; }
+    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 2% { opacity: .95; } 24% { transform: translateY(190px); opacity: .95; } 27%, 100% { transform: translateY(190px); opacity: 0; } }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .35; } }
+</style>
+<defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#22304d"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0"><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
+    <mask id="dotmask"><rect width="840" height="300" fill="url(#fade)"/></mask>
+    <radialGradient id="glow" cx="0.86" cy="0.12" r="0.6"><stop offset="0" stop-color="#34d399" stop-opacity="0.16"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+    <clipPath id="card"><rect x=".75" y=".75" width="838.5" height="298.5" rx="18"/></clipPath>
+</defs>
+
+<g clip-path="url(#card)">
+    <rect width="840" height="300" fill="#0b1220"/>
+    <rect width="840" height="300" fill="url(#dots)" mask="url(#dotmask)"/>
+    <rect width="840" height="300" fill="url(#glow)"/>
+</g>
+<rect x=".75" y=".75" width="838.5" height="298.5" rx="18" fill="none" stroke="#22304d" stroke-width="1.5"/>
+
+<g class="in" style="animation-delay:.1s">
+    <circle class="pulse" cx="49" cy="57" r="4" fill="#34d399"/>
+    <text x="62" y="62" class="m accent" font-size="13" font-weight="600" letter-spacing="2.2">SENIOR SOFTWARE ENGINEER</text>
+    <text x="548" y="63" text-anchor="end" class="s faint" font-size="16">مهندس برمجيات</text>
+</g>
+<text x="43" y="114" class="s ink in" font-size="43" font-weight="700" letter-spacing="-.8" style="animation-delay:.22s">Khaled Al-Haj Salem</text>
+<text x="44" y="146" class="s muted in" font-size="18" style="animation-delay:.38s">Backend &amp; Systems Architect</text>
+<g class="in" style="animation-delay:0.55s">
+            <rect x="44" y="170" width="124" height="30" rx="15" fill="rgba(52,211,153,0.12)" stroke="#34d399" stroke-opacity=".35"/>
+            <text x="106" y="190" text-anchor="middle" class="s" font-size="13" font-weight="600" fill="#34d399">SaaS platforms</text>
+        </g>
+<g class="in" style="animation-delay:0.63s">
+            <rect x="178" y="170" width="156" height="30" rx="15" fill="rgba(52,211,153,0.12)" stroke="#34d399" stroke-opacity=".35"/>
+            <text x="256" y="190" text-anchor="middle" class="s" font-size="13" font-weight="600" fill="#34d399">FinTech &amp; payments</text>
+        </g>
+<g class="in" style="animation-delay:0.7100000000000001s">
+            <rect x="344" y="170" width="160" height="30" rx="15" fill="rgba(52,211,153,0.12)" stroke="#34d399" stroke-opacity=".35"/>
+            <text x="424" y="190" text-anchor="middle" class="s" font-size="13" font-weight="600" fill="#34d399">E-invoicing · ZATCA</text>
+        </g>
+<g class="in" style="animation-delay:.9s">
+    <path d="M50 221.5a6 6 0 0 0-6 6c0 4.4 6 10.5 6 10.5s6-6.1 6-10.5a6 6 0 0 0-6-6zm0 8.2a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4z" fill="#5b6b8a"/>
+    <text x="63" y="234" class="s muted" font-size="14">Gaza, Palestine</text>
+    <text x="548" y="234" text-anchor="end" class="m faint" font-size="12.5">building in production since 2015</text>
+</g>
+<g class="in" style="animation-delay:1.05s"><line x1="54" y1="263" x2="75.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="44" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="44" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:0.00s"/><line x1="85.5" y1="263" x2="107" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="75.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="75.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:0.25s"/><line x1="117" y1="263" x2="138.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="107" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="107" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:0.50s"/><line x1="148.5" y1="263" x2="170" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="138.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="138.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:0.75s"/><line x1="180" y1="263" x2="201.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="170" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="170" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:1.00s"/><line x1="211.5" y1="263" x2="233" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="201.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="201.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:1.25s"/><line x1="243" y1="263" x2="264.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="233" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="233" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:1.50s"/><line x1="274.5" y1="263" x2="296" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="264.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="264.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:1.75s"/><line x1="306" y1="263" x2="327.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="296" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="296" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:2.00s"/><line x1="337.5" y1="263" x2="359" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="327.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="327.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:2.25s"/><line x1="369" y1="263" x2="390.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="359" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="359" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:2.50s"/><line x1="400.5" y1="263" x2="422" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="390.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="390.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:2.75s"/><line x1="432" y1="263" x2="453.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="422" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="422" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:3.00s"/><line x1="463.5" y1="263" x2="485" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="453.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="453.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:3.25s"/><line x1="495" y1="263" x2="516.5" y2="263" stroke="#22304d" stroke-width="1.5"/><rect x="485" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="485" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:3.50s"/><rect x="516.5" y="258" width="10" height="10" rx="2.5" fill="#22304d"/><rect class="blk" x="516.5" y="258" width="10" height="10" rx="2.5" fill="#34d399" style="animation-delay:3.75s"/></g>
+
+<g class="in" style="animation-delay:.3s">
+    <rect x="606" y="42" width="190" height="190" rx="12" fill="#f8fafc" stroke="#22304d"/>
+    <svg x="606" y="42" width="190" height="190" viewBox="0 0 190 190">
+        <path transform="translate(14.615384615384613 14.615384615384613) scale(4.871794871794871)" d="M0 0h7v1h-7zM8 0h2v1h-2zM11 0h1v1h-1zM13 0h4v1h-4zM18 0h1v1h-1zM23 0h1v1h-1zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h2v1h-2zM12 1h3v1h-3zM16 1h1v1h-1zM18 1h3v1h-3zM24 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM9 2h1v1h-1zM11 2h1v1h-1zM14 2h1v1h-1zM16 2h6v1h-6zM23 2h2v1h-2zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h2v1h-2zM11 3h1v1h-1zM16 3h2v1h-2zM19 3h1v1h-1zM21 3h2v1h-2zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h1v1h-1zM11 4h2v1h-2zM16 4h1v1h-1zM19 4h1v1h-1zM21 4h2v1h-2zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM12 5h4v1h-4zM17 5h2v1h-2zM20 5h1v1h-1zM23 5h2v1h-2zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h5v1h-5zM17 7h5v1h-5zM24 7h1v1h-1zM0 8h1v1h-1zM4 8h1v1h-1zM6 8h3v1h-3zM10 8h1v1h-1zM12 8h1v1h-1zM15 8h1v1h-1zM17 8h1v1h-1zM20 8h10v1h-10zM32 8h1v1h-1zM2 9h2v1h-2zM7 9h1v1h-1zM9 9h1v1h-1zM14 9h5v1h-5zM20 9h2v1h-2zM23 9h1v1h-1zM25 9h1v1h-1zM29 9h3v1h-3zM0 10h3v1h-3zM4 10h3v1h-3zM8 10h2v1h-2zM12 10h4v1h-4zM18 10h1v1h-1zM23 10h1v1h-1zM29 10h1v1h-1zM31 10h1v1h-1zM2 11h1v1h-1zM8 11h2v1h-2zM11 11h3v1h-3zM19 11h2v1h-2zM22 11h1v1h-1zM24 11h2v1h-2zM31 11h1v1h-1zM2 12h1v1h-1zM6 12h2v1h-2zM10 12h1v1h-1zM13 12h1v1h-1zM15 12h2v1h-2zM22 12h3v1h-3zM26 12h1v1h-1zM28 12h2v1h-2zM32 12h1v1h-1zM0 13h1v1h-1zM2 13h3v1h-3zM7 13h1v1h-1zM10 13h1v1h-1zM13 13h2v1h-2zM17 13h5v1h-5zM24 13h2v1h-2zM27 13h1v1h-1zM29 13h2v1h-2zM0 14h2v1h-2zM6 14h2v1h-2zM9 14h2v1h-2zM15 14h1v1h-1zM18 14h1v1h-1zM20 14h1v1h-1zM23 14h4v1h-4zM29 14h1v1h-1zM31 14h1v1h-1zM0 15h3v1h-3zM5 15h1v1h-1zM8 15h2v1h-2zM12 15h1v1h-1zM14 15h5v1h-5zM21 15h2v1h-2zM24 15h5v1h-5zM0 16h1v1h-1zM4 16h1v1h-1zM6 16h4v1h-4zM11 16h2v1h-2zM17 16h1v1h-1zM19 16h6v1h-6zM26 16h1v1h-1zM28 16h1v1h-1zM31 16h1v1h-1zM0 17h2v1h-2zM3 17h2v1h-2zM7 17h4v1h-4zM12 17h2v1h-2zM15 17h1v1h-1zM18 17h1v1h-1zM23 17h2v1h-2zM29 17h3v1h-3zM4 18h4v1h-4zM9 18h1v1h-1zM11 18h2v1h-2zM15 18h3v1h-3zM20 18h8v1h-8zM29 18h1v1h-1zM31 18h1v1h-1zM4 19h1v1h-1zM7 19h1v1h-1zM9 19h6v1h-6zM17 19h2v1h-2zM21 19h1v1h-1zM24 19h1v1h-1zM27 19h1v1h-1zM1 20h2v1h-2zM5 20h5v1h-5zM13 20h3v1h-3zM18 20h1v1h-1zM20 20h1v1h-1zM24 20h1v1h-1zM26 20h4v1h-4zM0 21h3v1h-3zM5 21h1v1h-1zM8 21h2v1h-2zM11 21h1v1h-1zM14 21h1v1h-1zM16 21h2v1h-2zM19 21h1v1h-1zM21 21h5v1h-5zM27 21h1v1h-1zM31 21h1v1h-1zM2 22h1v1h-1zM5 22h4v1h-4zM10 22h3v1h-3zM14 22h1v1h-1zM16 22h4v1h-4zM22 22h4v1h-4zM27 22h1v1h-1zM29 22h1v1h-1zM31 22h1v1h-1zM3 23h3v1h-3zM7 23h1v1h-1zM9 23h2v1h-2zM13 23h2v1h-2zM17 23h5v1h-5zM23 23h5v1h-5zM31 23h2v1h-2zM0 24h3v1h-3zM4 24h1v1h-1zM6 24h1v1h-1zM8 24h1v1h-1zM10 24h3v1h-3zM15 24h1v1h-1zM17 24h2v1h-2zM20 24h9v1h-9zM31 24h1v1h-1zM8 25h1v1h-1zM11 25h2v1h-2zM14 25h5v1h-5zM21 25h1v1h-1zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h2v1h-2zM0 26h7v1h-7zM8 26h1v1h-1zM10 26h4v1h-4zM15 26h1v1h-1zM18 26h1v1h-1zM24 26h1v1h-1zM26 26h1v1h-1zM28 26h2v1h-2zM31 26h1v1h-1zM0 27h1v1h-1zM6 27h1v1h-1zM12 27h2v1h-2zM15 27h2v1h-2zM20 27h1v1h-1zM22 27h1v1h-1zM24 27h1v1h-1zM28 27h1v1h-1zM31 27h1v1h-1zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h3v1h-3zM13 28h4v1h-4zM19 28h1v1h-1zM22 28h1v1h-1zM24 28h6v1h-6zM31 28h2v1h-2zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM9 29h1v1h-1zM11 29h2v1h-2zM17 29h4v1h-4zM23 29h1v1h-1zM26 29h3v1h-3zM30 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM9 30h7v1h-7zM18 30h1v1h-1zM20 30h2v1h-2zM25 30h4v1h-4zM0 31h1v1h-1zM6 31h1v1h-1zM10 31h1v1h-1zM12 31h2v1h-2zM15 31h4v1h-4zM21 31h1v1h-1zM23 31h3v1h-3zM0 32h7v1h-7zM8 32h1v1h-1zM13 32h2v1h-2zM17 32h1v1h-1zM19 32h6v1h-6zM26 32h1v1h-1zM32 32h1v1h-1z" fill="#0b1220" shape-rendering="crispEdges"/>
+        <rect class="cover" x="1" y="0" width="188" height="190" fill="#f8fafc"/>
+        <rect class="scan" x="6" y="-1" width="178" height="2.5" rx="1.25" fill="#34d399"/>
+    </svg>
+    <path d="M597 49V38a5 5 0 0 1 5 -5H613" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M805 49V38a5 5 0 0 0 -5 -5H789" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M597 225V236a5 5 0 0 0 5 5H613" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M805 225V236a5 5 0 0 1 -5 5H789" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="701" y="267" text-anchor="middle" class="m muted" font-size="12.5">scan → linkedin</text>
+</g>
+</svg>

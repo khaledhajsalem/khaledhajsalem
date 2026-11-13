@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 262" width="840" height="262" role="img" aria-labelledby="title desc">
+<title id="title">From invoice data to a cleared e-invoice</title>
+<desc id="desc">The steps zatca-php and zatca-node perform: invoice data becomes UBL 2.1 XML, is hashed with SHA-256, signed with ECDSA on secp256k1, given a TLV QR code, and cleared or reported through ZATCA.</desc>
+<style>
+    .s { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .ink { fill: #0f172a; } .muted { fill: #55647d; } .faint { fill: #8a97ab; } .accent { fill: #059669; }
+    .in { animation: rise .8s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @keyframes n0 { 0%, 0.0% { opacity: 0; } 2.5%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes n1 { 0%, 15.6% { opacity: 0; } 18.1%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes n2 { 0%, 31.2% { opacity: 0; } 33.7%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes n3 { 0%, 46.8% { opacity: 0; } 49.3%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes n4 { 0%, 62.4% { opacity: 0; } 64.9%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes n5 { 0%, 78.0% { opacity: 0; } 80.5%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    .dot { opacity: 0; animation: dot 8.5s linear infinite; }
+    @keyframes dot { 0% { transform: translateX(0); opacity: 0; } 2% { opacity: 1; } 78% { transform: translateX(676px); opacity: 1; } 81%, 100% { transform: translateX(676px); opacity: 0; } }
+</style>
+<rect x=".75" y=".75" width="838.5" height="260.5" rx="18" fill="#ffffff" stroke="#dfe5ee" stroke-width="1.5"/>
+
+<text x="36" y="46" class="s ink" font-size="16" font-weight="650">From invoice data to a cleared e-invoice</text>
+<text x="804" y="46" text-anchor="end" class="m faint" font-size="12.5">zatca-php · zatca-node</text>
+
+<line x1="122" y1="124" x2="177.2" y2="124" stroke="#dfe5ee" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/><line x1="257.2" y1="124" x2="312.4" y2="124" stroke="#dfe5ee" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/><line x1="392.4" y1="124" x2="447.59999999999997" y2="124" stroke="#dfe5ee" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/><line x1="527.5999999999999" y1="124" x2="582.8" y2="124" stroke="#dfe5ee" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/><line x1="662.8" y1="124" x2="718" y2="124" stroke="#dfe5ee" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/>
+<circle class="dot" cx="82" cy="124" r="4.5" fill="#059669"/>
+
+    <g transform="translate(82 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:0;animation:n0 8.5s linear infinite"/>
+        <text y="7" text-anchor="middle" class="m ink" font-size="21" font-weight="700">{ }</text>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">Invoice data</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">from your system</text>
+    </g>
+    <g transform="translate(217.2 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:0;animation:n1 8.5s linear infinite"/>
+        <text y="6.5" text-anchor="middle" class="m ink" font-size="17" font-weight="700">&lt;/&gt;</text>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">UBL 2.1 XML</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">generated</text>
+    </g>
+    <g transform="translate(352.4 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:0;animation:n2 8.5s linear infinite"/>
+        <text y="8" text-anchor="middle" class="m ink" font-size="23" font-weight="700">#</text>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">SHA-256</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">invoice hash</text>
+    </g>
+    <g transform="translate(487.59999999999997 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:0;animation:n3 8.5s linear infinite"/>
+        <path d="M-14 3c3-13 8-15 9-5 1 8-4 9-3 2 1-6 6-6 8 0 2 5 6 4 9-1" fill="none" stroke="#0f172a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-14 13h28" stroke="#8a97ab" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 4.5"/>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">ECDSA</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">signed · secp256k1</text>
+    </g>
+    <g transform="translate(622.8 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:0;animation:n4 8.5s linear infinite"/>
+        <g fill="none" stroke="#0f172a" stroke-width="2"><rect x="-13" y="-13" width="10" height="10" rx="1.5"/><rect x="3" y="-13" width="10" height="10" rx="1.5"/><rect x="-13" y="3" width="10" height="10" rx="1.5"/></g><g fill="#0f172a"><rect x="-9.5" y="-9.5" width="3" height="3"/><rect x="6.5" y="-9.5" width="3" height="3"/><rect x="-9.5" y="6.5" width="3" height="3"/><rect x="3" y="3" width="4" height="4"/><rect x="9.5" y="3" width="3.5" height="3.5"/><rect x="3" y="9.5" width="3.5" height="3.5"/><rect x="9" y="9" width="4" height="4"/></g>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">QR code</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">TLV · Base64</text>
+    </g>
+    <g transform="translate(758 124)">
+        <circle r="33" fill="#f8fafc" stroke="#dfe5ee" stroke-width="1.5"/>
+        <circle r="33" fill="rgba(5,150,105,0.09)" stroke="#059669" stroke-width="2" style="opacity:1;animation:n5 8.5s linear infinite"/>
+        <path d="M0-15l12 4.5v8.5c0 8-5.2 13-12 16.5-6.800-3.500-12-8.500-12-16.500v-8.500z" fill="none" stroke="#059669" stroke-width="2.2" stroke-linejoin="round"/><path d="M-5.500 0.500l4 4 7.500-8.500" fill="none" stroke="#059669" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text y="59" text-anchor="middle" class="s ink" font-size="14.5" font-weight="650">ZATCA</text>
+        <text y="78" text-anchor="middle" class="s muted" font-size="12">cleared · reported</text>
+    </g>
+
+<text x="420" y="240" text-anchor="middle" class="m faint" font-size="12">each invoice carries the hash of the one before it — one unbroken chain per device</text>
+</svg>
